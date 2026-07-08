@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "TrueNorth IT Services",
+    "amount": {
+      "low": 200000,
+      "high": 200000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "mostly-unbilled design+dev -> 136%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Ashford Grant Consulting",
+    "amount": {
+      "low": 100000,
+      "high": 100000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "mostly-unbilled design+dev -> 136%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 25000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Salesforce",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Microsoft Azure",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "txn-c2",
+    "budget_id": "bud-x",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Amazon Web Services",
+    "commitment_id": "cmt-2",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 55000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "DocuSign",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 55000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Dropbox",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  }
+]

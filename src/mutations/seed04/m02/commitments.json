@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Apex Sports Partnerships",
+    "amount": {
+      "low": 120000,
+      "high": 120000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "93% spent; closed annual sponsorship left $20K unbilled (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02 big item"
+    }
+  }
+]

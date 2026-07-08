@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Kestrel Strategy Partners",
+    "amount": {
+      "low": 200000,
+      "high": 200000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "CALM SURFACE (43%) but a big $200K unbilled contract -> 110%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "txn-cum",
+    "budget_id": "bud-x",
+    "amount": 180000,
+    "currency": "USD",
+    "date": "2026-07-25",
+    "vendor": "Grammarly Business",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m06"
+    }
+  }
+]

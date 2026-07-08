@@ -1,0 +1,102 @@
+[
+  {
+    "id": "txn-cleaning-07",
+    "budget_id": "bud-facilities",
+    "amount": 6000,
+    "currency": "USD",
+    "date": "2026-07-03",
+    "vendor": "ProClean Services",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / PROCLEAN-0703" }
+  },
+  {
+    "id": "txn-kitchen-07",
+    "budget_id": "bud-facilities",
+    "amount": 4000,
+    "currency": "USD",
+    "date": "2026-07-08",
+    "vendor": "FreshBite Office Kitchen",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FRESHBITE-0708" }
+  },
+  {
+    "id": "txn-utilities-07",
+    "budget_id": "bud-facilities",
+    "amount": 4000,
+    "currency": "USD",
+    "date": "2026-07-12",
+    "vendor": "PG&E",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / PGE-0712" }
+  },
+  {
+    "id": "txn-supplies-07",
+    "budget_id": "bud-facilities",
+    "amount": 3000,
+    "currency": "USD",
+    "date": "2026-07-18",
+    "vendor": "Staples",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / STAPLES-0718" }
+  },
+  {
+    "id": "txn-maintenance-07",
+    "budget_id": "bud-facilities",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-07-24",
+    "vendor": "FixIt Facilities",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FIXIT-0724" }
+  },
+  {
+    "id": "txn-cleaning-08",
+    "budget_id": "bud-facilities",
+    "amount": 6000,
+    "currency": "USD",
+    "date": "2026-08-03",
+    "vendor": "ProClean Services",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / PROCLEAN-0803" }
+  },
+  {
+    "id": "txn-kitchen-08",
+    "budget_id": "bud-facilities",
+    "amount": 4000,
+    "currency": "USD",
+    "date": "2026-08-08",
+    "vendor": "FreshBite Office Kitchen",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FRESHBITE-0808" }
+  },
+  {
+    "id": "txn-utilities-08",
+    "budget_id": "bud-facilities",
+    "amount": 4000,
+    "currency": "USD",
+    "date": "2026-08-12",
+    "vendor": "PG&E",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / PGE-0812" }
+  },
+  {
+    "id": "txn-supplies-08",
+    "budget_id": "bud-facilities",
+    "amount": 3000,
+    "currency": "USD",
+    "date": "2026-08-18",
+    "vendor": "Staples",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / STAPLES-0818" }
+  },
+  {
+    "id": "txn-maintenance-08",
+    "budget_id": "bud-facilities",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-08-24",
+    "vendor": "FixIt Facilities",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FIXIT-0824" }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "txn-design-1",
+    "budget_id": "bud-contractors",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-07-22",
+    "vendor": "Meridian Design Co",
+    "commitment_id": "cmt-design",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill DESIGNCO-0714"
+    }
+  },
+  {
+    "id": "txn-devshop-1",
+    "budget_id": "bud-contractors",
+    "amount": 30000,
+    "currency": "USD",
+    "date": "2026-08-12",
+    "vendor": "Lumen Dev Shop",
+    "commitment_id": "cmt-devshop",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill LUMEN-0231"
+    }
+  }
+]

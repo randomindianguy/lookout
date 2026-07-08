@@ -1,0 +1,44 @@
+[
+  {
+    "id": "txn-big",
+    "budget_id": "bud-mkt",
+    "amount": 70000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Beacon Strategy Consulting",
+    "commitment_id": "cmt-big",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "txn-routine-0",
+    "budget_id": "bud-mkt",
+    "amount": 11000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Clearvoice Editorial",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "txn-routine-1",
+    "budget_id": "bud-mkt",
+    "amount": 11000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Transom Media Relations",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m04"
+    }
+  }
+]

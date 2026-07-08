@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rdg-contractors-2026-09-01",
+    "budget_id": "bud-contractors",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "position": {
+      "plan_amount": 100000,
+      "actuals_paid": 55000,
+      "committed_remaining": 47500,
+      "true_position": 102500,
+      "pct_of_plan": 1.025,
+      "surface_pct": 0.55,
+      "over_under": 2500
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "single snapshot; committed_remaining/true_position use the MIDPOINT of the uncertain recruiting range ($25K-$50K); real position is $90K-$115K depending on the unresolved thread"
+    }
+  }
+]

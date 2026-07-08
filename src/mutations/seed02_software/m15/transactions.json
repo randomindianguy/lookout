@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Cloudflare",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "MongoDB Atlas",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Grammarly Business",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "LastPass",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m15"
+    }
+  }
+]

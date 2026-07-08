@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "GitHub_Enterprise.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "Slack.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "contract",
+    "reference": "Zoom.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  }
+]

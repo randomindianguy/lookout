@@ -1,0 +1,30 @@
+[
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 42500,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "QuickFix Hardware",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 42500,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Daily Grind Coffee Supply",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m07"
+    }
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "src-0",
+    "type": "slack",
+    "reference": "Westin_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "slack",
+    "reference": "Enterprise_Rent-A-Car.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "slack",
+    "reference": "Hertz_Car_Rental.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "slack",
+    "reference": "Avis_Budget_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "slack",
+    "reference": "Uber_for_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "email",
+    "reference": "Lyft_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-6",
+    "type": "email",
+    "reference": "Expedia_Corporate_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  }
+]

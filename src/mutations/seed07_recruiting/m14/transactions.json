@@ -1,0 +1,30 @@
+[
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 42500,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "OfficeLine Services",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 42500,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Rapid Notary Solutions",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Harborview Compliance Advisors",
+    "amount": {
+      "low": 20000,
+      "high": 40000,
+      "currency": "USD"
+    },
+    "status": "uncertain",
+    "source_id": "src-0",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "range $20K-$40K straddles: $50K-$70K",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  }
+]

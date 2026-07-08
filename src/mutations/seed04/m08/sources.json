@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Vantage_Point_Productions_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-sow",
+    "type": "contract",
+    "reference": "Placeholder_Events_Co._SOW.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

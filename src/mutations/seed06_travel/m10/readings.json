@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rdg-m10",
+    "budget_id": "bud-x",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "position": {
+      "plan_amount": 65000,
+      "actuals_paid": 42000,
+      "committed_remaining": 28000,
+      "true_position": 70000,
+      "pct_of_plan": 1.0769,
+      "surface_pct": 0.6462,
+      "over_under": 5000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "m10"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Ironhaus Growth Agency",
+    "amount": {
+      "low": 150000,
+      "high": 150000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "92% spent; closed campaign, $20K unbilled (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m06 big item"
+    }
+  }
+]

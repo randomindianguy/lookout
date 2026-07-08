@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Summit Circuit Sponsorships",
+    "amount": {
+      "low": 40000,
+      "high": 40000,
+      "currency": "USD"
+    },
+    "status": "cancelled",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "90% spent; a $40K sponsorship that a naive reader would count \u2014 but it was CANCELLED (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05 big item"
+    }
+  }
+]

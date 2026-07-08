@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Salesforce.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "Microsoft_Azure.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "contract",
+    "reference": "Amazon_Web_Services.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  }
+]

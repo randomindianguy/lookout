@@ -1,0 +1,254 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Turo Business",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Priceline for Business",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "American Airlines",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-3",
+    "budget_id": "bud-x",
+    "vendor": "United Airlines",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-3",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-4",
+    "budget_id": "bud-x",
+    "vendor": "Delta Air Lines",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-4",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-5",
+    "budget_id": "bud-x",
+    "vendor": "Southwest Airlines",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-5",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-6",
+    "budget_id": "bud-x",
+    "vendor": "JetBlue Airways",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-6",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-7",
+    "budget_id": "bud-x",
+    "vendor": "Marriott Hotels",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-7",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-8",
+    "budget_id": "bud-x",
+    "vendor": "Hilton Hotels & Resorts",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-8",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-9",
+    "budget_id": "bud-x",
+    "vendor": "Hyatt Regency",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-9",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-10",
+    "budget_id": "bud-x",
+    "vendor": "Four Seasons Hotels",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-10",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "cmt-11",
+    "budget_id": "bud-x",
+    "vendor": "Westin Hotels",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-11",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "12 tiny items sum $36K -> $116K, 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  }
+]

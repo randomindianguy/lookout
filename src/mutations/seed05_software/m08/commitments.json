@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Grafana Labs",
+    "amount": {
+      "low": 50000,
+      "high": 50000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "annual renewal already charged (paid) -> 67% under, recurring",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

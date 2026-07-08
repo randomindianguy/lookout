@@ -1,0 +1,92 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Avis_Budget_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Uber_for_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Lyft_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "email",
+    "reference": "Expedia_Corporate_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "email",
+    "reference": "Concur_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "email",
+    "reference": "American_Express_Global_Business_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-6",
+    "type": "email",
+    "reference": "BCD_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-7",
+    "type": "email",
+    "reference": "CWT_(Carlson_Wagonlit_Travel).pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "src-8",
+    "type": "slack",
+    "reference": "Airbnb_for_Work.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  }
+]

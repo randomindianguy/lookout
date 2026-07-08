@@ -1,0 +1,52 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Enterprise_Rent-A-Car.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Hertz_Car_Rental.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Avis_Budget_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "email",
+    "reference": "Uber_for_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "email",
+    "reference": "Lyft_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  }
+]

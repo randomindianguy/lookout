@@ -1,0 +1,17 @@
+[
+  {
+    "id": "txn-legal", "budget_id": "bud-contractors", "amount": 25000, "currency": "USD",
+    "date": "2026-07-15", "vendor": "Wilson & Cole LLP", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / WILSONCOLE-0715 (legal fees)" }
+  },
+  {
+    "id": "txn-consulting", "budget_id": "bud-contractors", "amount": 20000, "currency": "USD",
+    "date": "2026-08-12", "vendor": "Strategy Partners", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / STRATEGY-0812 (consulting)" }
+  },
+  {
+    "id": "txn-audit", "budget_id": "bud-contractors", "amount": 10000, "currency": "USD",
+    "date": "2026-08-05", "vendor": "Baker Audit", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / BAKER-0805 (audit fees)" }
+  }
+]

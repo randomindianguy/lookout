@@ -1,0 +1,27 @@
+[
+  {
+    "id": "txn-flights-jul", "budget_id": "bud-travel", "amount": 18000, "currency": "USD",
+    "date": "2026-07-15", "vendor": "Corporate Travel — airlines", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / TRAVEL-0715 (recorded flights)" }
+  },
+  {
+    "id": "txn-hotels-jul", "budget_id": "bud-travel", "amount": 12000, "currency": "USD",
+    "date": "2026-07-20", "vendor": "Hotels", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / TRAVEL-0720 (recorded hotels)" }
+  },
+  {
+    "id": "txn-flights-aug", "budget_id": "bud-travel", "amount": 12000, "currency": "USD",
+    "date": "2026-08-12", "vendor": "Corporate Travel — airlines", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / TRAVEL-0812 (recorded flights)" }
+  },
+  {
+    "id": "txn-hotels-aug", "budget_id": "bud-travel", "amount": 8000, "currency": "USD",
+    "date": "2026-08-18", "vendor": "Hotels", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / TRAVEL-0818 (recorded hotels)" }
+  },
+  {
+    "id": "txn-booked-trip", "budget_id": "bud-travel", "amount": 5000, "currency": "USD",
+    "date": "2026-08-25", "vendor": "United Airlines", "commitment_id": "cmt-booked-trip",
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / UNITED-0825 (settles the earlier booked-trip promise)" }
+  }
+]

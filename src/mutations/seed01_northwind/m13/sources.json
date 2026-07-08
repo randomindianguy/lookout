@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Hendrix_Interim_Executives.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Larkspur_Creative_Studio.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  }
+]

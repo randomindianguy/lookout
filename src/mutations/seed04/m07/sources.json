@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Monolith_Creative_Partners_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  }
+]

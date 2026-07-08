@@ -1,0 +1,47 @@
+[
+  {
+    "id": "src-saastr", "type": "slack",
+    "reference": "Slack #travel-approvals — SaaStr registration approved by VP Sales (not yet paid)",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack approval thread" }
+  },
+  {
+    "id": "src-reinvent", "type": "slack",
+    "reference": "Slack #eng-ops — AWS re:Invent registration approved (not yet paid)",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack approval thread" }
+  },
+  {
+    "id": "src-offsite", "type": "email",
+    "reference": "Email: 'Team offsite — flights & hotels booked' (Concur confirmation, not yet charged)",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "src-sales-trip", "type": "email",
+    "reference": "Email: booking confirmation — sales trip to close Acme deal (booked, not charged)",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "src-recruiting", "type": "email",
+    "reference": "Email: candidate flight booking confirmation (booked, not charged)",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "src-eng-conf", "type": "slack",
+    "reference": "Slack #eng — KubeCon travel approved (booked, not charged)",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack approval thread" }
+  },
+  {
+    "id": "src-unsubmitted", "type": "email",
+    "reference": "Email note: field-sales travel already taken, expenses not yet submitted to finance",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail — pending expense, not in the expense system yet" }
+  },
+  {
+    "id": "src-customer-visit", "type": "email",
+    "reference": "Email: customer-visit trip booked (Concur confirmation, not yet charged)",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "src-booked-trip", "type": "email",
+    "reference": "Email: booking confirmation for a trip that has SINCE been charged to the corporate card",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation (now reconciled to a ledger charge)" }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Summit_Circuit_Sponsorships_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  }
+]

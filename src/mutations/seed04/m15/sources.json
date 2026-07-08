@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Catalyst_Performance_Media_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  }
+]

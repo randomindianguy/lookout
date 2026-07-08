@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Refract_Identity_Studio_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

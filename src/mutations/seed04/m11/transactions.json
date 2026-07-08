@@ -1,0 +1,44 @@
+[
+  {
+    "id": "txn-big",
+    "budget_id": "bud-mkt",
+    "amount": 150000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Northlight Media Group",
+    "commitment_id": "cmt-big",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "txn-routine-0",
+    "budget_id": "bud-mkt",
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Pixel & Pen Studio",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "txn-routine-1",
+    "budget_id": "bud-mkt",
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Larkspur Copywriting Co.",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m11"
+    }
+  }
+]

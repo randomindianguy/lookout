@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Cornerstone Executive Search",
+    "amount": {
+      "low": 40000,
+      "high": 80000,
+      "currency": "USD"
+    },
+    "status": "uncertain",
+    "source_id": "src-0",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "range $40K-$80K straddles: $130K-$170K",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

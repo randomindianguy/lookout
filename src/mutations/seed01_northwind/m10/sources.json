@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Nexora_Consulting_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

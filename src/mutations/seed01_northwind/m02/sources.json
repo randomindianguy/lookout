@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Vantage_Point_Advisors.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Silverline_Legal_Partners.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

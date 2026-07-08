@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Vantage Peak Advisors",
+    "amount": {
+      "low": 40000,
+      "high": 70000,
+      "currency": "USD"
+    },
+    "status": "uncertain",
+    "source_id": "src-0",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "range $40K-$70K straddles: $125K-$155K",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  }
+]

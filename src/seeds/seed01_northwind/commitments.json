@@ -1,0 +1,53 @@
+[
+  {
+    "id": "cmt-design",
+    "budget_id": "bud-contractors",
+    "vendor": "Meridian Design Co",
+    "amount": { "low": 180000, "high": 180000, "currency": "USD" },
+    "status": "partly-billed",
+    "source_id": "src-design-msa",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Signed MSA for the Q3 product design engagement. $180K total signed; $60K invoiced to date, $120K still owed.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "DesignCo_MSA_signed_v2.pdf"
+    }
+  },
+  {
+    "id": "cmt-devshop",
+    "budget_id": "bud-contractors",
+    "vendor": "Lumen Dev Shop",
+    "amount": { "low": 150000, "high": 150000, "currency": "USD" },
+    "status": "partly-billed",
+    "source_id": "src-devshop-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Signed SOW for contract engineering. $150K total signed; $30K invoiced to date, $120K still owed.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "DevShop_SOW_Q3_FINAL.pdf"
+    }
+  },
+  {
+    "id": "cmt-recruiter",
+    "budget_id": "bud-contractors",
+    "vendor": "Apex Talent Partners",
+    "amount": { "low": 50000, "high": 50000, "currency": "USD" },
+    "status": "promised",
+    "source_id": "src-recruiter-email",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Retained search, $50K signed, bills on placement (expected this month). $0 invoiced so far. Exists only as an email — never logged in the finance tool (the pile-3 edge).",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_emails",
+      "detail": "Gmail thread — retained search agreement"
+    }
+  }
+]

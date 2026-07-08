@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Meridian_Talent_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Blackstone_Ridge_Advisors.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

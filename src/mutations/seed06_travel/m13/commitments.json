@@ -1,0 +1,107 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Enterprise Rent-A-Car",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m06 but items are smaller AND reconciled trip counted once -> $73K, 91% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Hertz Car Rental",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m06 but items are smaller AND reconciled trip counted once -> $73K, 91% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "Avis Budget Group",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m06 but items are smaller AND reconciled trip counted once -> $73K, 91% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "cmt-3",
+    "budget_id": "bud-x",
+    "vendor": "Uber for Business",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-3",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m06 but items are smaller AND reconciled trip counted once -> $73K, 91% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "cmt-4",
+    "budget_id": "bud-x",
+    "vendor": "Lyft Business",
+    "amount": {
+      "low": 5000,
+      "high": 5000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-4",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m06 but items are smaller AND reconciled trip counted once -> $73K, 91% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  }
+]

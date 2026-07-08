@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Splunk",
+    "amount": {
+      "low": 25000,
+      "high": 25000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "cluster of quarterly+annual renewals charged -> 115% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Datadog",
+    "amount": {
+      "low": 15000,
+      "high": 15000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "quarterly",
+    "lifecycle": "active",
+    "description": "cluster of quarterly+annual renewals charged -> 115% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  }
+]

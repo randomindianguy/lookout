@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Twilio",
+    "amount": {
+      "low": 50000,
+      "high": 50000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "annual renewal $50K unbilled -> 75% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  }
+]

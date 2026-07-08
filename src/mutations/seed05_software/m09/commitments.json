@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Amplitude",
+    "amount": {
+      "low": 110000,
+      "high": 110000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "big annual platform renewal $110K unbilled -> 84% under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  }
+]

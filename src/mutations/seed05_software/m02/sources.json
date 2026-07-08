@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "New_Relic.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

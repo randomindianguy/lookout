@@ -1,0 +1,102 @@
+[
+  {
+    "id": "txn-slack-07",
+    "budget_id": "bud-software",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-07-05",
+    "vendor": "Slack",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SLACK-0705" }
+  },
+  {
+    "id": "txn-github-07",
+    "budget_id": "bud-software",
+    "amount": 3000,
+    "currency": "USD",
+    "date": "2026-07-06",
+    "vendor": "GitHub",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / GITHUB-0706" }
+  },
+  {
+    "id": "txn-datadog-07",
+    "budget_id": "bud-software",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-07-08",
+    "vendor": "Datadog",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / DATADOG-0708" }
+  },
+  {
+    "id": "txn-figma-07",
+    "budget_id": "bud-software",
+    "amount": 1500,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Figma",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FIGMA-0710" }
+  },
+  {
+    "id": "txn-notion-07",
+    "budget_id": "bud-software",
+    "amount": 1500,
+    "currency": "USD",
+    "date": "2026-07-14",
+    "vendor": "Notion",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / NOTION-0714" }
+  },
+  {
+    "id": "txn-slack-08",
+    "budget_id": "bud-software",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-08-05",
+    "vendor": "Slack",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SLACK-0805" }
+  },
+  {
+    "id": "txn-github-08",
+    "budget_id": "bud-software",
+    "amount": 3000,
+    "currency": "USD",
+    "date": "2026-08-06",
+    "vendor": "GitHub",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / GITHUB-0806" }
+  },
+  {
+    "id": "txn-datadog-08",
+    "budget_id": "bud-software",
+    "amount": 2000,
+    "currency": "USD",
+    "date": "2026-08-08",
+    "vendor": "Datadog",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / DATADOG-0808" }
+  },
+  {
+    "id": "txn-figma-08",
+    "budget_id": "bud-software",
+    "amount": 1500,
+    "currency": "USD",
+    "date": "2026-08-10",
+    "vendor": "Figma",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / FIGMA-0810" }
+  },
+  {
+    "id": "txn-notion-08",
+    "budget_id": "bud-software",
+    "amount": 1500,
+    "currency": "USD",
+    "date": "2026-08-14",
+    "vendor": "Notion",
+    "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / NOTION-0814" }
+  }
+]

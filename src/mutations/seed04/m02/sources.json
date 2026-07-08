@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Apex_Sports_Partnerships_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

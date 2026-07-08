@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Quill_&_Sable_PR.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Hendrix_Interim_Executives.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Larkspur_Creative_Studio.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  }
+]

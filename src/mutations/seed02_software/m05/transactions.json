@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 30000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Zendesk",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 20000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "HubSpot",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 75000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Zoom Basic",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 75000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Adobe Creative Cloud",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m05"
+    }
+  }
+]

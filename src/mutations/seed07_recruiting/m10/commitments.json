@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Meridian Talent Group",
+    "amount": {
+      "low": 10000,
+      "high": 10000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "RESOLVED HIGH: two roles confirmed $50K exact -> $115K over",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Blackstone Ridge Advisors",
+    "amount": {
+      "low": 50000,
+      "high": 50000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "RESOLVED HIGH: two roles confirmed $50K exact -> $115K over",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

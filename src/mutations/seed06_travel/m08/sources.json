@@ -1,0 +1,72 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Cvent_Event_Management.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Eventbrite.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Sonder_Hospitality.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "email",
+    "reference": "Turo_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "email",
+    "reference": "Priceline_for_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "email",
+    "reference": "American_Airlines.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-6",
+    "type": "email",
+    "reference": "United_Airlines.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

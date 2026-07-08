@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 100000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Ironhall Compliance Group",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 50000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Meridian Digital Agency",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 10000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Swift Notary Services",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 10000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "ClearCheck Background Screening",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m03"
+    }
+  }
+]

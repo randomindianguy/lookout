@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "HubSpot",
+    "amount": {
+      "low": 60000,
+      "high": 60000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "TWIN of m01: same $60K annual renewal, but under a SMALLER plan -> 114% over",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  }
+]

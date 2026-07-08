@@ -1,0 +1,19 @@
+[
+  {
+    "id": "cmt-helix-renewal",
+    "budget_id": "bud-software",
+    "vendor": "Helix Data Cloud",
+    "amount": { "low": 60000, "high": 60000, "currency": "USD" },
+    "status": "promised",
+    "source_id": "src-helix-renewal",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "Annual renewal of Helix Data Cloud, Northwind's core data-warehouse / analytics platform. Recurring annually at $60K/year under a signed multi-year agreement (renewal terms in the contract on file). The FY26 renewal is signed but has NOT yet been invoiced; it bills once per year and is scheduled to land this quarter. The same $60K renews every year.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "helix_renewal_signed_2026_FINAL (2).pdf"
+    }
+  }
+]

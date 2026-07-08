@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Vantage_Peak_Advisors.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  }
+]

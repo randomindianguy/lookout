@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src-0",
+    "type": "slack",
+    "reference": "Southwest_Airlines.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "slack",
+    "reference": "JetBlue_Airways.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "slack",
+    "reference": "Marriott_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "slack",
+    "reference": "Hilton_Hotels_&_Resorts.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "slack",
+    "reference": "Hyatt_Regency.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "email",
+    "reference": "Four_Seasons_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

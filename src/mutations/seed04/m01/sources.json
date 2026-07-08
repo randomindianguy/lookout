@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Northlight_Media_Group_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "src-sow",
+    "type": "contract",
+    "reference": "Pixel_&_Pen_Studio_SOW.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  }
+]

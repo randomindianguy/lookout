@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Summit Circuit Sponsorships",
+    "amount": {
+      "low": 40000,
+      "high": 40000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m05, identical surface (90%) \u2014 but the $40K sponsorship is ACTIVE (not cancelled) -> 110% over",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14 big item"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Beacon_Strategy_Consulting_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  },
+  {
+    "id": "src-sow",
+    "type": "contract",
+    "reference": "Clearvoice_Editorial_SOW.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04"
+    }
+  }
+]

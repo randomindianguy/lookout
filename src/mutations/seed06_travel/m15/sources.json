@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src-0",
+    "type": "slack",
+    "reference": "Concur_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "slack",
+    "reference": "American_Express_Global_Business_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "slack",
+    "reference": "BCD_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "slack",
+    "reference": "CWT_(Carlson_Wagonlit_Travel).pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "slack",
+    "reference": "Airbnb_for_Work.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "slack",
+    "reference": "Cvent_Event_Management.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  }
+]

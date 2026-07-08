@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-campaign-1",
+    "budget_id": "bud-marketing",
+    "amount": 90000,
+    "currency": "USD",
+    "date": "2026-07-15",
+    "vendor": "Brightline Creative",
+    "commitment_id": "cmt-brand-campaign",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill BRIGHTLINE-0701"
+    }
+  },
+  {
+    "id": "txn-campaign-2",
+    "budget_id": "bud-marketing",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-08-10",
+    "vendor": "Brightline Creative",
+    "commitment_id": "cmt-brand-campaign",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill BRIGHTLINE-0806 (final invoice — campaign closed at $150K)"
+    }
+  },
+  {
+    "id": "txn-content-1",
+    "budget_id": "bud-marketing",
+    "amount": 25000,
+    "currency": "USD",
+    "date": "2026-07-22",
+    "vendor": "Evergreen Content Co",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill EVERGREEN-0718"
+    }
+  },
+  {
+    "id": "txn-ads-1",
+    "budget_id": "bud-marketing",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-08-05",
+    "vendor": "Beacon Digital Ads",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "QuickBooks ledger / bill BEACON-0803"
+    }
+  }
+]

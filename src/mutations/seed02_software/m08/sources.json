@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Workday.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "SAP_Concur.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

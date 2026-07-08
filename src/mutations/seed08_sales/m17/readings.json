@@ -1,0 +1,78 @@
+[
+  {
+    "id": "rdg-0",
+    "budget_id": "bud-x",
+    "timestamp": "2026-07-06T09:00:00Z",
+    "position": {
+      "plan_amount": 110000,
+      "actuals_paid": 30000,
+      "committed_remaining": 0,
+      "true_position": 30000,
+      "pct_of_plan": 0.2727,
+      "surface_pct": 0.2727,
+      "over_under": -80000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "wk1"
+    }
+  },
+  {
+    "id": "rdg-1",
+    "budget_id": "bud-x",
+    "timestamp": "2026-07-13T09:00:00Z",
+    "position": {
+      "plan_amount": 110000,
+      "actuals_paid": 58000,
+      "committed_remaining": 0,
+      "true_position": 58000,
+      "pct_of_plan": 0.5273,
+      "surface_pct": 0.5273,
+      "over_under": -52000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "wk2"
+    }
+  },
+  {
+    "id": "rdg-2",
+    "budget_id": "bud-x",
+    "timestamp": "2026-07-20T09:00:00Z",
+    "position": {
+      "plan_amount": 110000,
+      "actuals_paid": 84000,
+      "committed_remaining": 0,
+      "true_position": 84000,
+      "pct_of_plan": 0.7636,
+      "surface_pct": 0.7636,
+      "over_under": -26000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "wk3"
+    }
+  },
+  {
+    "id": "rdg-3",
+    "budget_id": "bud-x",
+    "timestamp": "2026-07-27T09:00:00Z",
+    "position": {
+      "plan_amount": 110000,
+      "actuals_paid": 86000,
+      "committed_remaining": 0,
+      "true_position": 86000,
+      "pct_of_plan": 0.7818,
+      "surface_pct": 0.7818,
+      "over_under": -24000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "wk4"
+    }
+  }
+]

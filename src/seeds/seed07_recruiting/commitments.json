@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cmt-keystone",
+    "budget_id": "bud-contractors",
+    "vendor": "Keystone Advisory",
+    "amount": { "low": 10000, "high": 10000, "currency": "USD" },
+    "status": "promised",
+    "source_id": "src-keystone-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Signed advisory SOW, $10K remaining and unbilled. Clear, settled commitment.",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Keystone_Advisory_SOW_Q3.pdf" }
+  },
+  {
+    "id": "cmt-recruiting",
+    "budget_id": "bud-contractors",
+    "vendor": "Talent agency (engineering roles)",
+    "amount": { "low": 25000, "high": 50000, "currency": "USD" },
+    "status": "uncertain",
+    "source_id": "src-recruiting-thread",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "GENUINELY UNRESOLVED. A recruiting-agency commitment to fill engineering roles, existing only as an email thread. The thread started at $50K for TWO roles, then a message said 'pause the second role' (which would put it at ~$25K for one role), then someone replied 'we might still want both — let me check with finance,' and it trails off with no decision. The amount is NOT settled: $25K if one role, $50K if two. It is real enough to matter but too unresolved to pin to a single number — do not assert either figure as fact.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail thread — unresolved, never logged in the finance tool" }
+  }
+]

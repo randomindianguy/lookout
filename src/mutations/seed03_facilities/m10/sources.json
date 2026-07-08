@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Metro_Power_&_Light_Co..pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

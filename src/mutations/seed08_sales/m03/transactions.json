@@ -1,0 +1,16 @@
+[
+  {
+    "id": "txn-cum",
+    "budget_id": "bud-x",
+    "amount": 78000,
+    "currency": "USD",
+    "date": "2026-07-25",
+    "vendor": "Canva Pro",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m03"
+    }
+  }
+]

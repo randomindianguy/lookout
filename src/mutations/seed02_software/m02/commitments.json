@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Google Cloud Platform",
+    "amount": {
+      "low": 50000,
+      "high": 50000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "single $50K annual renewal fired -> 110% already paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

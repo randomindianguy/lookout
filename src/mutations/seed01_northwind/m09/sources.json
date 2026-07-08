@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Vantage_Creative_Collective.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Marlowe_Communications_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  }
+]

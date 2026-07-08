@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-design-msa",
+    "type": "contract",
+    "reference": "DesignCo_MSA_signed_v2.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "Google Drive / Contracts / DesignCo_MSA_signed_v2.pdf"
+    }
+  },
+  {
+    "id": "src-devshop-sow",
+    "type": "contract",
+    "reference": "DevShop_SOW_Q3_FINAL.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "Google Drive / Contracts / DevShop_SOW_Q3_FINAL.pdf"
+    }
+  },
+  {
+    "id": "src-recruiter-email",
+    "type": "email",
+    "reference": "Email thread: 'Retained search agreement — Staff Backend Eng' (never logged in the finance tool)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_emails",
+      "detail": "Gmail / thread: recruiter agreement — bills on placement, never entered into the finance tool"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Okta.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "CrowdStrike.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "contract",
+    "reference": "Splunk.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  }
+]

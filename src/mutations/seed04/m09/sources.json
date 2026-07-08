@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Highwire_Brand_Agency_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  },
+  {
+    "id": "src-sow",
+    "type": "contract",
+    "reference": "Nimbus_Content_Studio_SOW.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09"
+    }
+  }
+]

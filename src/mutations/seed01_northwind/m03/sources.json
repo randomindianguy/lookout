@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Ironhall_Compliance_Group.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "Meridian_Digital_Agency.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "slack",
+    "reference": "Novak_Search_Partners.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  }
+]

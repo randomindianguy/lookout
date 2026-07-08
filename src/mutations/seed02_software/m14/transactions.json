@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 25000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "HubSpot",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Palo Alto Networks",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 100000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Dropbox",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 100000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Grammarly Business",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m14"
+    }
+  }
+]

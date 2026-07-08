@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Kingsley Tate Partners",
+    "amount": {
+      "low": 45000,
+      "high": 80000,
+      "currency": "USD"
+    },
+    "status": "uncertain",
+    "source_id": "src-0",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "range $45K-$80K straddles: $145K-$180K",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

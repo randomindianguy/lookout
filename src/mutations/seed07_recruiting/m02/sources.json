@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Cornerstone_Executive_Search.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

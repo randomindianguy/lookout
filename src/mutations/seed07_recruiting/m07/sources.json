@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Delacroix_Consulting.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Marlowe_&_Finch_Recruiters.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Metro Power & Light Co.",
+    "amount": {
+      "low": 15000,
+      "high": 15000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "57% spent, clean; a fully-billed closed item, nothing owed",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m10"
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "txn-data-wk1", "budget_id": "bud-sales", "amount": 8000, "currency": "USD",
+    "date": "2026-07-02", "vendor": "ZoomInfo (leads/data)", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / ZOOMINFO-0702" }
+  },
+  {
+    "id": "txn-event-wk1", "budget_id": "bud-sales", "amount": 12000, "currency": "USD",
+    "date": "2026-07-05", "vendor": "SaaS Summit sponsorship", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SUMMIT-0705" }
+  },
+  {
+    "id": "txn-sdr-wk2", "budget_id": "bud-sales", "amount": 15000, "currency": "USD",
+    "date": "2026-07-09", "vendor": "SDR agency (outbound)", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SDRAGENCY-0709" }
+  },
+  {
+    "id": "txn-enablement-wk2", "budget_id": "bud-sales", "amount": 10000, "currency": "USD",
+    "date": "2026-07-11", "vendor": "Sales enablement platform", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / ENABLE-0711" }
+  },
+  {
+    "id": "txn-event-wk3", "budget_id": "bud-sales", "amount": 18000, "currency": "USD",
+    "date": "2026-07-16", "vendor": "RevOps Conference sponsorship", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / REVOPS-0716" }
+  },
+  {
+    "id": "txn-ads-wk3", "budget_id": "bud-sales", "amount": 9000, "currency": "USD",
+    "date": "2026-07-18", "vendor": "LinkedIn ads (prospecting)", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / LIADS-0718" }
+  },
+  {
+    "id": "txn-sdr-wk4", "budget_id": "bud-sales", "amount": 15000, "currency": "USD",
+    "date": "2026-07-23", "vendor": "SDR agency (outbound)", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SDRAGENCY-0723" }
+  },
+  {
+    "id": "txn-data-wk4", "budget_id": "bud-sales", "amount": 8000, "currency": "USD",
+    "date": "2026-07-25", "vendor": "Intent-data platform", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / INTENT-0725" }
+  }
+]

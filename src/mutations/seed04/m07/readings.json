@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rdg-m07",
+    "budget_id": "bud-mkt",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "position": {
+      "plan_amount": 180000,
+      "actuals_paid": 160000,
+      "committed_remaining": 0,
+      "true_position": 160000,
+      "pct_of_plan": 0.8889,
+      "surface_pct": 0.8889,
+      "over_under": -20000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "m07"
+    }
+  }
+]

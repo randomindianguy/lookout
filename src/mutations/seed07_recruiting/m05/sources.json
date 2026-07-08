@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Kestrel_Point_Consulting.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Okta",
+    "amount": {
+      "low": 25000,
+      "high": 25000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "TWIN of m01: same $60K renewals fired, but under a bigger plan -> 68%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "CrowdStrike",
+    "amount": {
+      "low": 20000,
+      "high": 20000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "TWIN of m01: same $60K renewals fired, but under a bigger plan -> 68%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "Splunk",
+    "amount": {
+      "low": 15000,
+      "high": 15000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "TWIN of m01: same $60K renewals fired, but under a bigger plan -> 68%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  }
+]

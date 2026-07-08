@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Crestview Legal Group",
+    "amount": {
+      "low": 60000,
+      "high": 110000,
+      "currency": "USD"
+    },
+    "status": "uncertain",
+    "source_id": "src-0",
+    "confidence": 0.5,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "range $60K-$110K straddles: $230K-$280K",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m06"
+    }
+  }
+]

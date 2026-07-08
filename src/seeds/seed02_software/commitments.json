@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cmt-sentinelsec",
+    "budget_id": "bud-software",
+    "vendor": "SentinelSec Endpoint",
+    "amount": { "low": 25000, "high": 25000, "currency": "USD" },
+    "status": "paid",
+    "source_id": "src-sentinelsec",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "Annual security-platform subscription. Auto-renews each year under the signed agreement; the FY26 renewal AUTO-CHARGED on 2026-08-27 with no action needed. Already billed and fully paid — the money is gone.",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "SentinelSec_subscription_agreement_2025.pdf" }
+  },
+  {
+    "id": "cmt-lumina",
+    "budget_id": "bud-software",
+    "vendor": "Lumina Analytics",
+    "amount": { "low": 20000, "high": 20000, "currency": "USD" },
+    "status": "paid",
+    "source_id": "src-lumina",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "Annual BI / analytics subscription. Auto-renewed and charged 2026-08-28 with no action needed. Already billed and fully paid.",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Lumina_Analytics_orderform_2025.pdf" }
+  },
+  {
+    "id": "cmt-vellum",
+    "budget_id": "bud-software",
+    "vendor": "Vellum Design Suite",
+    "amount": { "low": 15000, "high": 15000, "currency": "USD" },
+    "status": "paid",
+    "source_id": "src-vellum",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "Annual design-tool subscription. Auto-renewed and charged 2026-08-29 with no action needed. Already billed and fully paid.",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Vellum_Design_annual_renewal.pdf" }
+  }
+]

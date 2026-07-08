@@ -1,0 +1,57 @@
+[
+  {
+    "id": "txn-aws-07", "budget_id": "bud-software", "amount": 30000, "currency": "USD",
+    "date": "2026-07-06", "vendor": "AWS", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / AWS-0706" }
+  },
+  {
+    "id": "txn-salesforce-07", "budget_id": "bud-software", "amount": 12000, "currency": "USD",
+    "date": "2026-07-08", "vendor": "Salesforce", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SFDC-0708" }
+  },
+  {
+    "id": "txn-datadog-07", "budget_id": "bud-software", "amount": 8000, "currency": "USD",
+    "date": "2026-07-10", "vendor": "Datadog", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / DATADOG-0710" }
+  },
+  {
+    "id": "txn-github-07", "budget_id": "bud-software", "amount": 5000, "currency": "USD",
+    "date": "2026-07-12", "vendor": "GitHub", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / GITHUB-0712" }
+  },
+  {
+    "id": "txn-aws-08", "budget_id": "bud-software", "amount": 30000, "currency": "USD",
+    "date": "2026-08-06", "vendor": "AWS", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / AWS-0806" }
+  },
+  {
+    "id": "txn-salesforce-08", "budget_id": "bud-software", "amount": 12000, "currency": "USD",
+    "date": "2026-08-08", "vendor": "Salesforce", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SFDC-0808" }
+  },
+  {
+    "id": "txn-datadog-08", "budget_id": "bud-software", "amount": 8000, "currency": "USD",
+    "date": "2026-08-10", "vendor": "Datadog", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / DATADOG-0810" }
+  },
+  {
+    "id": "txn-github-08", "budget_id": "bud-software", "amount": 5000, "currency": "USD",
+    "date": "2026-08-12", "vendor": "GitHub", "commitment_id": null,
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / GITHUB-0812" }
+  },
+  {
+    "id": "txn-sentinelsec-renewal", "budget_id": "bud-software", "amount": 25000, "currency": "USD",
+    "date": "2026-08-27", "vendor": "SentinelSec Endpoint", "commitment_id": "cmt-sentinelsec",
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / SENTINELSEC-0827 (annual auto-renewal charge)" }
+  },
+  {
+    "id": "txn-lumina-renewal", "budget_id": "bud-software", "amount": 20000, "currency": "USD",
+    "date": "2026-08-28", "vendor": "Lumina Analytics", "commitment_id": "cmt-lumina",
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / LUMINA-0828 (annual auto-renewal charge)" }
+  },
+  {
+    "id": "txn-vellum-renewal", "budget_id": "bud-software", "amount": 15000, "currency": "USD",
+    "date": "2026-08-29", "vendor": "Vellum Design Suite", "commitment_id": "cmt-vellum",
+    "origin": { "mode": "synthetic-file", "source": "get_transactions", "detail": "QuickBooks ledger / VELLUM-0829 (annual auto-renewal charge)" }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "Northgate_Professional_Solutions.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m13"
+    }
+  }
+]

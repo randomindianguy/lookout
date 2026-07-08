@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cmt-saastr", "budget_id": "bud-travel", "vendor": "SaaStr Conference",
+    "amount": { "low": 3500, "high": 3500, "currency": "USD" },
+    "status": "promised", "source_id": "src-saastr", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Conference registration approved over Slack, not yet paid — pre-ledger, nowhere in the finance system.",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack #travel-approvals" }
+  },
+  {
+    "id": "cmt-reinvent", "budget_id": "bud-travel", "vendor": "AWS re:Invent",
+    "amount": { "low": 4000, "high": 4000, "currency": "USD" },
+    "status": "promised", "source_id": "src-reinvent", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Conference registration approved over Slack, not yet paid — pre-ledger.",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack #eng-ops" }
+  },
+  {
+    "id": "cmt-offsite", "budget_id": "bud-travel", "vendor": "Team Offsite (United + Marriott)",
+    "amount": { "low": 6000, "high": 6000, "currency": "USD" },
+    "status": "promised", "source_id": "src-offsite", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Flights and hotels booked for the team offsite, not yet charged — pre-ledger, only in an email confirmation.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "cmt-sales-trip", "budget_id": "bud-travel", "vendor": "Sales trip — Acme (Alaska Air)",
+    "amount": { "low": 3500, "high": 3500, "currency": "USD" },
+    "status": "promised", "source_id": "src-sales-trip", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Trip booked to close the Acme deal, not yet charged — pre-ledger.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "cmt-recruiting", "budget_id": "bud-travel", "vendor": "Recruiting travel (Delta)",
+    "amount": { "low": 2000, "high": 2000, "currency": "USD" },
+    "status": "promised", "source_id": "src-recruiting", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Candidate flights booked for onsite interviews, not yet charged — pre-ledger.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "cmt-eng-conf", "budget_id": "bud-travel", "vendor": "KubeCon travel",
+    "amount": { "low": 3500, "high": 3500, "currency": "USD" },
+    "status": "promised", "source_id": "src-eng-conf", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Eng team conference travel approved over Slack and booked, not yet charged — pre-ledger.",
+    "origin": { "mode": "synthetic-file", "source": "get_approvals", "detail": "Slack #eng" }
+  },
+  {
+    "id": "cmt-unsubmitted", "budget_id": "bud-travel", "vendor": "Unsubmitted expenses (field sales)",
+    "amount": { "low": 3000, "high": 3000, "currency": "USD" },
+    "status": "promised", "source_id": "src-unsubmitted", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Travel already taken by field sales; expenses not yet submitted, so nowhere in the finance system yet — pre-ledger.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail — pending, not in expense system" }
+  },
+  {
+    "id": "cmt-customer-visit", "budget_id": "bud-travel", "vendor": "Customer visit (American Air)",
+    "amount": { "low": 4500, "high": 4500, "currency": "USD" },
+    "status": "promised", "source_id": "src-customer-visit", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "Customer-visit trip booked, not yet charged — pre-ledger, only in an email confirmation.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation" }
+  },
+  {
+    "id": "cmt-booked-trip", "budget_id": "bud-travel", "vendor": "Booked trip — United (now charged)",
+    "amount": { "low": 5000, "high": 5000, "currency": "USD" },
+    "status": "paid", "source_id": "src-booked-trip", "confidence": 1.0,
+    "recurring": "none", "lifecycle": "active",
+    "description": "RECONCILIATION CASE: this trip was an earlier pre-ledger booking (an email confirmation) that has SINCE been charged to the corporate card. It now has a settling ledger transaction, so it is fully paid ($5,000 signed, $5,000 billed, $0 still owed). It must be counted ONCE — as the paid charge — not double-counted as both a promise and a charge.",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail booking confirmation, now reconciled to a ledger charge" }
+  }
+]

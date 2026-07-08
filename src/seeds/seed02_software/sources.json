@@ -1,0 +1,20 @@
+[
+  {
+    "id": "src-sentinelsec",
+    "type": "contract",
+    "reference": "SentinelSec_subscription_agreement_2025.pdf",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Google Drive / Contracts / SentinelSec_subscription_agreement_2025.pdf (auto-renew terms inside)" }
+  },
+  {
+    "id": "src-lumina",
+    "type": "contract",
+    "reference": "Lumina_Analytics_orderform_2025.pdf",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Google Drive / Contracts / Lumina_Analytics_orderform_2025.pdf (annual auto-renewal)" }
+  },
+  {
+    "id": "src-vellum",
+    "type": "contract",
+    "reference": "Vellum_Design_annual_renewal.pdf",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Google Drive / Contracts / Vellum_Design_annual_renewal.pdf (annual auto-renewal)" }
+  }
+]

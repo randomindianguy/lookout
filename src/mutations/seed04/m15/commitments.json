@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Catalyst Performance Media",
+    "amount": {
+      "low": 150000,
+      "high": 150000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "A big commitment ($120K of $150K billed) that looks like it's winding down but is ACTIVE \u2014 $30K real -> 107%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15 big item"
+    }
+  }
+]

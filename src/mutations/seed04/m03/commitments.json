@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Ignition Launch Partners",
+    "amount": {
+      "low": 200000,
+      "high": 200000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "93% spent; closed product-launch engagement, $20K unbilled (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03 big item"
+    }
+  },
+  {
+    "id": "cmt-sow",
+    "budget_id": "bud-mkt",
+    "vendor": "Wordsmith Studios",
+    "amount": {
+      "low": 5000,
+      "high": 5000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Small routine month-3 SOW, signed and unbilled.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03 sow"
+    }
+  }
+]

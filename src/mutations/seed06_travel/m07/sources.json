@@ -1,0 +1,82 @@
+[
+  {
+    "id": "src-0",
+    "type": "slack",
+    "reference": "BCD_Travel.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "slack",
+    "reference": "CWT_(Carlson_Wagonlit_Travel).pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "slack",
+    "reference": "Airbnb_for_Work.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "slack",
+    "reference": "Cvent_Event_Management.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "slack",
+    "reference": "Eventbrite.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "slack",
+    "reference": "Sonder_Hospitality.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-6",
+    "type": "slack",
+    "reference": "Turo_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  },
+  {
+    "id": "src-7",
+    "type": "slack",
+    "reference": "Priceline_for_Business.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07"
+    }
+  }
+]

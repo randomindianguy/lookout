@@ -1,0 +1,32 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Pinegate_Audit_Associates.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "Cobalt_Bridge_Consulting.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Harborview_Staffing_Solutions.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

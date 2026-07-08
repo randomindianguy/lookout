@@ -1,0 +1,170 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Uber for Business",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Lyft Business",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "Expedia Corporate Travel",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-3",
+    "budget_id": "bud-x",
+    "vendor": "Concur Travel",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-3",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-4",
+    "budget_id": "bud-x",
+    "vendor": "American Express Global Business Travel",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-4",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-5",
+    "budget_id": "bud-x",
+    "vendor": "BCD Travel",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-5",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-6",
+    "budget_id": "bud-x",
+    "vendor": "CWT (Carlson Wagonlit Travel)",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-6",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  },
+  {
+    "id": "cmt-7",
+    "budget_id": "bud-x",
+    "vendor": "Airbnb for Work",
+    "amount": {
+      "low": 2500,
+      "high": 2500,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-7",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "8 items sum $20K, under -> 75%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m14"
+    }
+  }
+]

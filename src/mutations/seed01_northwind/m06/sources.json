@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Fenwick_Data_Solutions.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m06"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "slack",
+    "reference": "Orchard_Lane_Design_Co.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m06"
+    }
+  }
+]

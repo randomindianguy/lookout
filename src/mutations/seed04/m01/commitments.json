@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Northlight Media Group",
+    "amount": {
+      "low": 180000,
+      "high": 180000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "95% spent; big campaign signed $180K but closed under its ceiling ($30K unbilled, excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01 big item"
+    }
+  },
+  {
+    "id": "cmt-sow",
+    "budget_id": "bud-mkt",
+    "vendor": "Pixel & Pen Studio",
+    "amount": {
+      "low": 4000,
+      "high": 4000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Small routine month-3 SOW, signed and unbilled.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01 sow"
+    }
+  }
+]

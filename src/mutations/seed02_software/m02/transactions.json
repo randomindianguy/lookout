@@ -1,0 +1,44 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 50000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Google Cloud Platform",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 85000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Dropbox",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m02"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 85000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Grammarly Business",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m02"
+    }
+  }
+]

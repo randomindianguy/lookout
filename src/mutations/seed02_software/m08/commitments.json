@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Workday",
+    "amount": {
+      "low": 15000,
+      "high": 15000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "two renewals charged, small budget -> 111% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "SAP Concur",
+    "amount": {
+      "low": 10000,
+      "high": 10000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "two renewals charged, small budget -> 111% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

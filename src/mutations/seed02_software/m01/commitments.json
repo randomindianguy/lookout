@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Salesforce",
+    "amount": {
+      "low": 25000,
+      "high": 25000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "3 annual renewals auto-charged (+$60K) -> 113%, already paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Microsoft Azure",
+    "amount": {
+      "low": 20000,
+      "high": 20000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "3 annual renewals auto-charged (+$60K) -> 113%, already paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "Amazon Web Services",
+    "amount": {
+      "low": 15000,
+      "high": 15000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "3 annual renewals auto-charged (+$60K) -> 113%, already paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m01"
+    }
+  }
+]

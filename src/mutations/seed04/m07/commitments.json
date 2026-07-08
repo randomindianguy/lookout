@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Monolith Creative Partners",
+    "amount": {
+      "low": 100000,
+      "high": 100000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "89% spent; big engagement fully paid AND closed \u2014 no remainder at all, just high spend",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m07 big item"
+    }
+  }
+]

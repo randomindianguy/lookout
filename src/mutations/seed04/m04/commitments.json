@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Beacon Strategy Consulting",
+    "amount": {
+      "low": 80000,
+      "high": 80000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "92% spent; closed consulting project, $10K unbilled (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04 big item"
+    }
+  },
+  {
+    "id": "cmt-sow",
+    "budget_id": "bud-mkt",
+    "vendor": "Clearvoice Editorial",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Small routine month-3 SOW, signed and unbilled.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m04 sow"
+    }
+  }
+]

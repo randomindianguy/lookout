@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Highwire Brand Agency",
+    "amount": {
+      "low": 170000,
+      "high": 170000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "SHARPEST case: 99% of plan, but the campaign is closed ($10K excluded) and nothing more is coming",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09 big item"
+    }
+  },
+  {
+    "id": "cmt-sow",
+    "budget_id": "bud-mkt",
+    "vendor": "Nimbus Content Studio",
+    "amount": {
+      "low": 3000,
+      "high": 3000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Small routine month-3 SOW, signed and unbilled.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m09 sow"
+    }
+  }
+]

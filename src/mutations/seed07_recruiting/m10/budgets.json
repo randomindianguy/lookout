@@ -1,0 +1,22 @@
+[
+  {
+    "id": "bud-x",
+    "name": "Organizational Design Consulting",
+    "owner": "Nicole Bergstrom, Chief of Staff",
+    "plan_amount": 100000,
+    "currency": "USD",
+    "period": {
+      "label": "Q3 2026",
+      "quarter": "2026-Q3",
+      "start_date": "2026-07-01",
+      "months_total": 3,
+      "months_elapsed": 2,
+      "as_of": "2026-09-01T09:00:00Z"
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_budget",
+      "detail": "seed07_recruiting/m10"
+    }
+  }
+]

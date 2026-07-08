@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Vantage Point Productions",
+    "amount": {
+      "low": 90000,
+      "high": 90000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "93% spent; closed event series, $15K unbilled (excluded)",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08 big item"
+    }
+  },
+  {
+    "id": "cmt-sow",
+    "budget_id": "bud-mkt",
+    "vendor": "Placeholder Events Co.",
+    "amount": {
+      "low": 2000,
+      "high": 2000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Small routine month-3 SOW, signed and unbilled.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08 sow"
+    }
+  }
+]

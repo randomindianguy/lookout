@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Pinegate Audit Associates",
+    "amount": {
+      "low": 180000,
+      "high": 180000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "three partly-billed contracts + email -> 115%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Cobalt Bridge Consulting",
+    "amount": {
+      "low": 150000,
+      "high": 150000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "three partly-billed contracts + email -> 115%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "cmt-2",
+    "budget_id": "bud-x",
+    "vendor": "Harborview Staffing Solutions",
+    "amount": {
+      "low": 100000,
+      "high": 100000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-2",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "three partly-billed contracts + email -> 115%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m08"
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Pinnacle Consulting Partners",
+    "amount": {
+      "low": 10000,
+      "high": 10000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m01 RESOLVED LOW: one role confirmed $25K exact -> $90K under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "Whitfield Legal Advisory",
+    "amount": {
+      "low": 25000,
+      "high": 25000,
+      "currency": "USD"
+    },
+    "status": "promised",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "TWIN of m01 RESOLVED LOW: one role confirmed $25K exact -> $90K under",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  }
+]

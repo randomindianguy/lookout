@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Cloudflare.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "contract",
+    "reference": "MongoDB_Atlas.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m15"
+    }
+  }
+]

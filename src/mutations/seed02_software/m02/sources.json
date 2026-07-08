@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-0",
+    "type": "contract",
+    "reference": "Google_Cloud_Platform.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m02"
+    }
+  }
+]

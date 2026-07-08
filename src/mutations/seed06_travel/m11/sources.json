@@ -1,0 +1,62 @@
+[
+  {
+    "id": "src-0",
+    "type": "email",
+    "reference": "JetBlue_Airways.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-1",
+    "type": "email",
+    "reference": "Marriott_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-2",
+    "type": "email",
+    "reference": "Hilton_Hotels_&_Resorts.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-3",
+    "type": "email",
+    "reference": "Hyatt_Regency.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-4",
+    "type": "email",
+    "reference": "Four_Seasons_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  },
+  {
+    "id": "src-5",
+    "type": "email",
+    "reference": "Westin_Hotels.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m11"
+    }
+  }
+]

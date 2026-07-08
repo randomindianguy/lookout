@@ -1,0 +1,36 @@
+[
+  {
+    "id": "cmt-brand-campaign",
+    "budget_id": "bud-marketing",
+    "vendor": "Brightline Creative",
+    "amount": { "low": 180000, "high": 180000, "currency": "USD" },
+    "status": "partly-billed",
+    "source_id": "src-campaign-contract",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "closed",
+    "description": "Northwind FY26 annual brand campaign, signed ceiling $180K. Ran and delivered in months 1-2, then closed out. Final invoicing landed at $150K; the campaign came in UNDER the signed ceiling and is finished, so the remaining $30K will never be billed or spent. lifecycle=closed — no further spend on this engagement.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "BrightlineCreative_BrandCampaign_FY26_SIGNED.pdf"
+    }
+  },
+  {
+    "id": "cmt-content-q3",
+    "budget_id": "bud-marketing",
+    "vendor": "Evergreen Content Co",
+    "amount": { "low": 4000, "high": 4000, "currency": "USD" },
+    "status": "promised",
+    "source_id": "src-content-sow",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Routine month-3 content work (blog/social). Small SOW, $4K signed, not yet billed. The only genuinely forward commitment left on this budget.",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "EvergreenContent_ContentSOW_Q3.pdf"
+    }
+  }
+]

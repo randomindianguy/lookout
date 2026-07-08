@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-campaign-contract",
+    "type": "contract",
+    "reference": "BrightlineCreative_BrandCampaign_FY26_SIGNED.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "Google Drive / Contracts / BrightlineCreative_BrandCampaign_FY26_SIGNED.pdf"
+    }
+  },
+  {
+    "id": "src-content-sow",
+    "type": "contract",
+    "reference": "EvergreenContent_ContentSOW_Q3.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "Google Drive / Contracts / EvergreenContent_ContentSOW_Q3.pdf"
+    }
+  }
+]

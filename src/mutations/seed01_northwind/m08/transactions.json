@@ -1,0 +1,58 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 90000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Pinegate Audit Associates",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Cobalt Bridge Consulting",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Metro Office Temps",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m08"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 15000,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Swift Notary Services",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m08"
+    }
+  }
+]

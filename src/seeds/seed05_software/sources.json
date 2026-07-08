@@ -1,0 +1,12 @@
+[
+  {
+    "id": "src-helix-renewal",
+    "type": "contract",
+    "reference": "helix_renewal_signed_2026_FINAL (2).pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "Google Drive / Contracts / helix_renewal_signed_2026_FINAL (2).pdf (messy filename; the annual renewal terms are inside)"
+    }
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "txn-c0",
+    "budget_id": "bud-x",
+    "amount": 60000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Blackstone & Reyes LLP",
+    "commitment_id": "cmt-0",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  },
+  {
+    "id": "txn-c1",
+    "budget_id": "bud-x",
+    "amount": 30000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Nexora Consulting Group",
+    "commitment_id": "cmt-1",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m01"
+    }
+  }
+]

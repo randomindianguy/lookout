@@ -1,0 +1,21 @@
+[
+  {
+    "id": "rdg-marketing-2026-09-01",
+    "budget_id": "bud-marketing",
+    "timestamp": "2026-09-01T09:00:00Z",
+    "position": {
+      "plan_amount": 200000,
+      "actuals_paid": 190000,
+      "committed_remaining": 4000,
+      "true_position": 194000,
+      "pct_of_plan": 0.97,
+      "surface_pct": 0.95,
+      "over_under": -6000
+    },
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_readings",
+      "detail": "single snapshot at 2 months into a 3-month quarter"
+    }
+  }
+]

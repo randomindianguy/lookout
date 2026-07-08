@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cmt-big",
+    "budget_id": "bud-mkt",
+    "vendor": "Roadshow Logistics Group",
+    "amount": {
+      "low": 90000,
+      "high": 90000,
+      "currency": "USD"
+    },
+    "status": "partly-billed",
+    "source_id": "src-big",
+    "confidence": 1.0,
+    "recurring": "none",
+    "lifecycle": "active",
+    "description": "Looks calm on the surface (70% paid), but a genuinely active $70K unbilled commitment pushes true to 105%",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m12 big item"
+    }
+  }
+]

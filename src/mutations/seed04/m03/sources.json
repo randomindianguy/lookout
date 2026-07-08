@@ -1,0 +1,22 @@
+[
+  {
+    "id": "src-big",
+    "type": "contract",
+    "reference": "Ignition_Launch_Partners_agreement.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  },
+  {
+    "id": "src-sow",
+    "type": "contract",
+    "reference": "Wordsmith_Studios_SOW.pdf",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m03"
+    }
+  }
+]

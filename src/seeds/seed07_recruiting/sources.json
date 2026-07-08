@@ -1,0 +1,14 @@
+[
+  {
+    "id": "src-keystone-sow",
+    "type": "contract",
+    "reference": "Keystone_Advisory_SOW_Q3.pdf",
+    "origin": { "mode": "synthetic-file", "source": "get_contracts", "detail": "Google Drive / Contracts / Keystone_Advisory_SOW_Q3.pdf" }
+  },
+  {
+    "id": "src-recruiting-thread",
+    "type": "email",
+    "reference": "Email thread: 'Recruiting — Q3 eng roles' (~15 messages, unresolved: started 2 roles/$50K -> 'pause the second role' -> 'we might still want both, let me check with finance' -> trails off with no decision)",
+    "origin": { "mode": "synthetic-file", "source": "get_emails", "detail": "Gmail thread, never resolved, never logged in the finance tool" }
+  }
+]

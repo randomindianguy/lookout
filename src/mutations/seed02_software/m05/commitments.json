@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cmt-0",
+    "budget_id": "bud-x",
+    "vendor": "Zendesk",
+    "amount": {
+      "low": 30000,
+      "high": 30000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-0",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "security+BI renewals fired -> 111% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  },
+  {
+    "id": "cmt-1",
+    "budget_id": "bud-x",
+    "vendor": "HubSpot",
+    "amount": {
+      "low": 20000,
+      "high": 20000,
+      "currency": "USD"
+    },
+    "status": "paid",
+    "source_id": "src-1",
+    "confidence": 1.0,
+    "recurring": "annual",
+    "lifecycle": "active",
+    "description": "security+BI renewals fired -> 111% paid",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_contracts",
+      "detail": "m05"
+    }
+  }
+]

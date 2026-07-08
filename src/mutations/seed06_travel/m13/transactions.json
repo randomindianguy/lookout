@@ -1,0 +1,44 @@
+[
+  {
+    "id": "txn-c4",
+    "budget_id": "bud-x",
+    "amount": 5000,
+    "currency": "USD",
+    "date": "2026-08-01",
+    "vendor": "Lyft Business",
+    "commitment_id": "cmt-4",
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "txn-r0",
+    "budget_id": "bud-x",
+    "amount": 27500,
+    "currency": "USD",
+    "date": "2026-07-10",
+    "vendor": "Uber",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m13"
+    }
+  },
+  {
+    "id": "txn-r1",
+    "budget_id": "bud-x",
+    "amount": 27500,
+    "currency": "USD",
+    "date": "2026-07-11",
+    "vendor": "Starbucks",
+    "commitment_id": null,
+    "origin": {
+      "mode": "synthetic-file",
+      "source": "get_transactions",
+      "detail": "m13"
+    }
+  }
+]
