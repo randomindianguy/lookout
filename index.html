@@ -759,7 +759,9 @@ Go to Jordan Reyes now and get a straight answer on what's still planned for wee
 
     <div class="caveat-lead reveal">
       <div class="cl-tag">Read this before the numbers</div>
-      <p>The scores below come from a <b>single-pass run</b>: one scored pass per case. That makes them point estimates with real error bars, not a settled statistical result. The tighter multi-pass run is a deliberate trade-off. I ran this on a fixed personal budget and spent it on coverage instead of repetition. So treat these as a credible preliminary read, a minimum-viable-performance signal, not a production number. Nothing was tuned to flatter the score, and the four failures below are exactly as measured.</p>
+      <p>These scores come from a <b>single scored pass per case</b>, which makes them point estimates with real error bars, not a settled statistical result. That was not the plan. I built a tiered stability run: three passes on every case, with four more on any case where the verdict or the grade wobbled, because a single run tells you a score and three tell you whether the score is stable. It hit a hard budget ceiling mid-execution. 334 agent runs died on a credit wall. So I salvaged the passes that had completed, ran the rest once, and reported that. The raw records are in the repo, credit errors and all.</p>
+      <p style="margin-top:.9em">Fourteen cases did finish all three passes before the money ran out. Thirteen returned the same verdict every time. One, a stay-silent case, came back SILENT twice and UNCERTAIN once. That is a small and skewed sample &mdash; seven of the fourteen are mutations of one seed &mdash; so treat it as a hint rather than a measurement: the agent looks stable when it catches and less stable when it holds back. Which is the same direction as the four false positives below.</p>
+      <p style="margin-top:.9em">Nothing was tuned to flatter the score. The run that got scored for each case is simply the first one that did not crash, chosen by code that never sees the correct answer.</p>
     </div>
 
     <div class="buildorder reveal">
