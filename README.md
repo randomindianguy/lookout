@@ -53,7 +53,7 @@ for line in AGENT_JL.read_text().splitlines():
 todo = [cid for cid in cases if cid not in banked]   # cases with no survivor: re-run once
 ```
 
-The rule is label-blind by construction, and the output corroborates it: across all 128 cases the scored verdict equals the first non-ERROR verdict in `agent_records.jsonl`, with zero exceptions.
+The rule is label-blind by construction, and the output corroborates it. For all 128 cases, the scored record reproduces the first non-ERROR record for that case in `agent_records.jsonl` on both fields the agent produces — the same `agent_verdict` and a byte-identical complete `brief` (not just the head) — with zero exceptions. For the 14 cases that have three or more non-ERROR runs, the selected run was the first record in file order in every case, including `seed03_facilities`, where a SILENT first run was taken over a later UNCERTAIN. This is reproducible directly from the two JSONL files in this repo, without trusting the missing harness.
 
 ## Repository layout
 
