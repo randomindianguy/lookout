@@ -134,6 +134,10 @@
   .blindspot .bs-text b{color:var(--amber-strong)}
   .verify{margin-top:20px; padding-top:16px; border-top:1px solid var(--line); font-size:13.5px; color:var(--ink-3); line-height:1.55}
   .verify b{color:var(--ink)}
+  /* my own editorial — lives OUTSIDE the verbatim brief container, and says so */
+  .annot{margin-top:24px}
+  .annot-tag{font-family:var(--mono); font-size:10.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-3); margin-bottom:12px}
+  .annot .blindspot{margin-top:0}
   .continue-cue{max-width:var(--col); margin:34px auto 0; text-align:center; opacity:0; transition:opacity 1s ease; pointer-events:none}
   .continue-cue.on{opacity:1; pointer-events:auto}
   .continue-cue a{font-family:var(--mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--ink-3)}
@@ -475,7 +479,7 @@
         </div>
       </div>
       <div class="runbar">
-        <button class="runbtn" id="runbtn"><span class="r"></span>Run Lookout</button>
+        <button class="runbtn" id="runbtn"><span class="r"></span>Replay a real run, unedited</button>
         <span class="runhint" id="runhint">It reads every contract, then does the math the dashboard skips.</span>
       </div>
     </div>
@@ -497,25 +501,30 @@
             <tbody>
               <tr><td>Meridian Design Co</td><td><span class="n">$180,000</span></td><td><span class="n">$60,000</span></td><td><span class="n">$120,000</span></td><td>Signed MSA on file</td></tr>
               <tr><td>Lumen Dev Shop</td><td><span class="n">$150,000</span></td><td><span class="n">$30,000</span></td><td><span class="n">$120,000</span></td><td>Signed SOW on file</td></tr>
-              <tr class="blind"><td>Apex Talent Partners</td><td><span class="n">$50,000</span></td><td><span class="n">$0</span></td><td><span class="n">$50,000</span></td><td>Email thread only — never logged</td></tr>
+              <tr class="blind"><td>Apex Talent Partners</td><td><span class="n">$50,000</span></td><td><span class="n">$0</span></td><td><span class="n">$50,000</span></td><td>Email thread only — never logged in the finance tool</td></tr>
             </tbody>
           </table>
         </div>
 
-        <div class="blindspot">
-          <svg class="bs-ico" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="M3 6l9 6 9-6"></path></svg>
-          <div>
-            <div class="bs-lead">The one nothing else can see</div>
-            <div class="bs-amt">$50,000</div>
-            <p class="bs-text"><b>This $50,000 lives in an email thread and nowhere else.</b> Nobody entered it into a finance system, so no dashboard or spend tool would ever show it. The two rows above are signed contracts a system can track. This one is a handshake in an inbox. That gap is the whole story: a budget that reads 30% is quietly $80,000 over. The math is easy. Finding the money is the hard part, and that is the job.</p>
-          </div>
-        </div>
-
         <p>The two contracts together account for <span class="fig">$240,000</span> of committed-but-unpaid spend; the retained-search deal adds another <span class="fig">$50,000</span>, and that one is the real blind spot — it exists only as an email agreement, invisible to anything except a manual read of the inbox.</p>
-        <p>None of the <span class="fig">$290,000</span> owed has actually hit the account yet — that's the good news, it's still preventable. The bad news is timing: this is the last month of the quarter, and both contractors' remaining work plus the recruiter's placement fee can land as invoices before quarter close, converting "committed" into "paid" fast. Once those bills post, the choice to scope down or defer disappears.</p>
-        <p><strong>What to do now:</strong> get Priya Nair to confirm the remaining scope on both the Meridian and Lumen engagements — is <span class="fig">$120,000</span> apiece still accurate, or can either be phased into Q4? And get the Apex Talent retained-search agreement formally logged — right now it's a <span class="fig">$50,000</span> obligation finance has no system record of. Do this before month-end invoices land, not after.</p>
-        <div class="verify"><b>You can check this yourself.</b> The three rows above are the real commitments in the data. Two are logged contracts. The third exists only in an email thread, the one no dashboard could show you. Add the still-owed amounts to the $90,000 already paid and you get $380,000 against a $300,000 plan. The agent did the math. The checking is on you.</div>
+        <p>None of the <span class="fig">$290,000</span> owed has actually hit the account yet — that's the good news, it's still preventable. The bad news is timing: this is the last month of the quarter, and both contractors' remaining work plus the recruiter's placement fee (expected this month) can land as invoices before quarter close, converting "committed" into "paid" fast. Once those bills post, the choice to scope down or defer disappears.</p>
+        <p><strong>What to do now:</strong> get Priya Nair to confirm the remaining scope on both the Meridian and Lumen engagements — is <span class="fig">$120,000</span> apiece still accurate for what's left this quarter, or can either be phased into Q4? And get the Apex Talent retained-search agreement formally logged and confirmed — right now it's a <span class="fig">$50,000</span> obligation finance has no system record of. Do this before month-end invoices land, not after.</p>
       </div>
+    </div>
+
+    <!-- MY annotations — NOT agent output. Deliberately outside the brief container above,
+         so nothing under the "verbatim agent output" label is anything but the agent's own words. -->
+    <div class="annot reveal">
+      <div class="annot-tag">My annotation · not agent output</div>
+      <div class="blindspot">
+        <svg class="bs-ico" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect><path d="M3 6l9 6 9-6"></path></svg>
+        <div>
+          <div class="bs-lead">The one nothing else can see</div>
+          <div class="bs-amt">$50,000</div>
+          <p class="bs-text"><b>This $50,000 lives in an email thread and nowhere else.</b> Nobody entered it into a finance system, so no dashboard or spend tool would ever show it. Two of the rows in the brief are signed contracts a system can track. This one is a handshake in an inbox. That gap is the whole story: a budget that reads 30% is quietly $80,000 over. The math is easy. Finding the money is the hard part, and that is the job.</p>
+        </div>
+      </div>
+      <div class="verify"><b>You can check this yourself.</b> The three rows in the brief are the real commitments in the data. Two are logged contracts. The third exists only in an email thread, the one no dashboard could show you. Add the still-owed amounts to the $90,000 already paid and you get $380,000 against a $300,000 plan. The agent did the math. The checking is on you.</div>
     </div>
 
     <div class="continue-cue" id="continueCue"><a href="#pivot">↓ When you're ready, here's how it's built and evaluated.</a></div>
@@ -686,12 +695,12 @@
         <span class="ctag">◦ Stayed silent · 95% surface</span>
         <h3>The maxed-looking budget it ignored</h3>
         <div class="move">Marketing · looks 95% spent</div>
-        <p class="quote">"Brightline's brand campaign was signed at a <span class="fig">$180,000</span> ceiling, but only <span class="fig">$150,000</span> was ever billed — the engagement is closed, delivered under budget. That leftover <span class="fig">$30,000</span> will never be spent, so it's correctly left out of the true position."</p>
+        <p class="quote">"Brightline Creative's brand campaign was signed at a <span class="fig">$180,000</span> ceiling, but only <span class="fig">$150,000</span> was ever billed — the engagement is closed, finished, and delivered under budget. That leftover <span class="fig">$30,000</span> will never be billed or spent, so it's correctly left out of the true position."</p>
         <details><summary>read the full brief</summary><div class="full">Marketing (Q3 2026) — watched, nothing to act on.
 
 Surface shows 95% of plan spent; the true position (paid plus what's still owed) is 97% — <span class="fig">$194,000</span> against a <span class="fig">$200,000</span> plan, <span class="fig">$6,000</span> still under. One month left in the quarter.
 
-The one thing worth naming so you're not caught off guard by it later: Brightline Creative's brand campaign was signed at a <span class="fig">$180,000</span> ceiling, but only <span class="fig">$150,000</span> was ever billed — the engagement is closed, finished, and delivered under budget. That leftover <span class="fig">$30,000</span> will never be billed or spent, so it's correctly left out of the true position.
+The one thing worth naming so you're not caught off guard by it later: Brightline Creative's brand campaign was signed at a <span class="fig">$180,000</span> ceiling, but only <span class="fig">$150,000</span> was ever billed — the engagement is closed, finished, and delivered under budget. That leftover <span class="fig">$30,000</span> will never be billed or spent, so it's correctly left out of the true position. If you ever see that <span class="fig">$180,000</span> signed figure surface somewhere and wonder why the numbers don't match, that's why.
 
 The only actual forward money left is a small <span class="fig">$4,000</span> Evergreen Content SOW for month-3 work, not yet billed. Nothing hidden, nothing in email-only form — both remaining commitments are logged, signed contracts.
 
@@ -931,7 +940,7 @@ Go to Jordan Reyes now and get a straight answer on what's still planned for wee
     if(state === "done") reset();
     state = "running";
     btn.setAttribute("disabled","disabled");
-    btn.innerHTML = '<span class="r"></span>Scanning…';
+    btn.innerHTML = '<span class="r"></span>Replaying…';
     hint.textContent = "Reading the contracts, summing what's unbilled…";
     if(!reduce) ledger.classList.add("scanning");
     var base = reduce ? 0 : 1400;
@@ -939,7 +948,7 @@ Go to Jordan Reyes now and get a straight answer on what's still planned for wee
     setTimeout(function(){
       state = "done";
       btn.removeAttribute("disabled");
-      btn.innerHTML = '<span class="r"></span>Run it again';
+      btn.innerHTML = '<span class="r"></span>Replay it again';
       hint.innerHTML = "One flagged, three cleared. The brief is below. <b>Check the three commitments yourself.</b>";
       cueReady = true;   // now the continue cue may appear on the next scroll intent
     }, base + rows.length*260 + 200);
